@@ -1,15 +1,13 @@
 package hr.from.ivantoplak.petclinic.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
-@Getter
-@Setter
+@Data
 public class BaseEntity implements Serializable {
     private static final long serialVersionUID = 1L;
 
